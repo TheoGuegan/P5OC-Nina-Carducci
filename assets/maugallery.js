@@ -147,9 +147,11 @@
       }
       let index = 0,
         next = null;
-
+        
+// il fallait rajouter i--
       $(imagesCollection).each(function(i) {
         if ($(activeImage).attr("src") === $(this).attr("src")) {
+          i--;
           index = i ;
         }
       });
@@ -187,8 +189,10 @@
       let index = 0,
         next = null;
 
+        // il fallait rajouter i++
       $(imagesCollection).each(function(i) {
         if ($(activeImage).attr("src") === $(this).attr("src")) {
+          i++;
           index = i;
         }
       });

@@ -100,11 +100,18 @@ body {
 .gallery .nav {
 	justify-content: center;
 }
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+
+/* Correction en dessous, nav-link.active ou il manquait le -tag */
+.nav-pills .nav-link.nav-link.active-tag, .nav-pills .show > .nav-link {
 	color: #fff;
 	background-color: #BEB45A;
 	border-radius:0 ;
 }
+
+.nav-link.active-tag span {
+	color: #fff;
+}
+
 .nav-pills .nav-link {
 	color: #000
 }

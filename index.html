@@ -23,7 +23,7 @@
 <body>
 <header>
 	<div class="top-header">
-		<h1 class="name">Nina Carducci - Photographe</h1>
+		<h1 class="name" itemprop="name">Nina Carducci - Photographe</h1>
 		<div class="nav">   
 			<ul>
 				<li><a href="#about">À propos</a></li>
@@ -70,7 +70,7 @@
 		</div>
 		<div id="about-me">
 			<h2 class="about-me__title">A propos de moi</h2>
-			<p class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.</p>
+			<p class="about-me__introduction" itemprop="description">Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.</p>
 			<p>Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie : le figer au travers de photographies pour le savourer avec les personnes qui sont importantes à nos yeux, ou le partager au plus grand nombre.
 				C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
 		</div>
@@ -165,11 +165,13 @@
 			</div>
 		</div>
 		<div class="coordonnées">
-			<h3>Nina Carducci</h3>
-			<p>68 avenue Alsace-Loraine <br>33200 Bordeaux.
-				<br>Disponible par téléphone du lundi au vendredi de 10h à 19h
-				<br>au numéro suivant : <u>05.56.67.78.89</u>.
-			</p>
+			<h3 itemprop="name">Nina Carducci</h3>
+			<span itemprop="address">
+				<p itemprop="streetAddress">68 avenue Alsace-Loraine</p>
+				<p itemprop="addressLocality">33200 Bordeaux.</p>
+				<p itemprop="openingHours">Disponible par téléphone du lundi au vendredi de 10h à 19h</p>
+				<p itemprop="telephone">au numéro suivant : <u>05.56.67.78.89</u>.</p>
+			</span>
 		</div>
 	</div>
 </footer>

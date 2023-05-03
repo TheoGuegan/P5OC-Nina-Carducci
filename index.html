@@ -10,7 +10,7 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
 	<meta charset="UTF-8">
-	<meta name="description" content="Nina Carducci est une photographe professionnelle disponible en Aquitaine ou en Ile-de-France pour des shootings photos, retouches ou album photos. Pour un mariage, une grossesse, un concert ou pour des clichés d'entreprise, Nina Carducci sera votre spécialiste en photographie ! ">
+	<meta itemprop="description" name="description" content="Nina Carducci est une photographe professionnelle disponible en Aquitaine ou en Ile-de-France pour des shootings photos, retouches ou album photos. Pour un mariage, une grossesse, un concert ou pour des clichés d'entreprise, Nina Carducci sera votre spécialiste en photographie ! ">
 	<link rel="apple-touch-icon" sizes="180x180" href="./assets/images/favicon/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon/favicon-16x16.png">
@@ -18,6 +18,7 @@
 	<link rel="mask-icon" href="./assets/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
 	<meta name="msapplication-TileColor" content="#da532c">
 	<meta name="theme-color" content="#ffffff">
+	<meta itemprop="name" content="Nina Carducci"/>
 	<title>Nina Carducci Photographe</title>
 </head>
 <body>
@@ -164,13 +165,13 @@
 				<img src="./assets/images/camera.webp" alt="Image retro d'un appareil photo.">
 			</div>
 		</div>
-		<div class="coordonnées" itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+		<div class="coordonnées" itemprop="address" itemscope itemtype="https://schema.org/LocalBusiness">
 			<h3 itemprop="name">Nina Carducci</h3>
 			<!-- <span itemprop="address"> -->
 				<p itemprop="streetAddress">68 avenue Alsace-Loraine</p>
 				<p><span itemprop="postalCode">33200</span><span itemprop="addressLocality">Bordeaux.</span></p>
 				<p>Disponible par téléphone du lundi au vendredi de 10h à 19h</p>
-				<p itemprop="telephone">au numéro suivant : <u>05.56.67.78.89</u>.</p>
+				<p>au numéro suivant : <u itemprop="telephone">05.56.67.78.89</u>.</p>
 			<!-- </span> -->
 		</div>
 	</div>
@@ -181,13 +182,4 @@
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <script src="./assets/maugallery.js"></script>
 <script async src="./assets/scripts.js"></script>
-<script type="application/ld+json">
-	{
-		"@context": "http://schema.org",
-		"@type": "PostalAddress",
-		"streetAddress": "68 avenue Alsace-Loraine",
-		"addressLocality": "Bordeaux.",
-		"postalCode": "33200"
-	}
-</script>
 </html>
